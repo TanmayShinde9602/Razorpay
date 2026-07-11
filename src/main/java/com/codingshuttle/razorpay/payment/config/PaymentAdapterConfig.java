@@ -19,7 +19,6 @@ public class PaymentAdapterConfig {
     private final CardPaymentAdapter cardPaymentAdapter;
     private final UpiPaymentAdapter upiPaymentAdapter;
 
-
     @Bean
     public Map<PaymentMethod, PaymentAdapter> paymentAdapterMap() {
         return Map.of(
